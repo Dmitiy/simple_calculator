@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calc</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="calc">
+		<input type="text" name='in'/>
+		<input type="text" name='out'/>
+		<div class="box-btn">
+			<div class="calc-action">
+				<button data-action='plus'>+</button>
+				<button data-action='minus'>-</button>
+				<button data-action='multiply'>*</button>
+				<button data-action='devide'>/</button>
+			</div>
+			<div class="calc-nums">
+				<button data-num='9'>9</button>
+				<button data-num='8'>8</button>
+				<button data-num='7'>7</button>
+				<button data-num='6'>6</button>
+				<button data-num='5'>5</button>
+				<button data-num='4'>4</button>
+				<button data-num='3'>3</button>
+				<button data-num='2'>2</button>
+				<button data-num='1'>1</button>
+				<button data-num='0'>0</button>
+			</div>
+			<button data-reset='reset'></button>
+			<button data-result='result'>=</button>
+		</div>
+	</div>
+	<script src='calc.js'></script>
+</body>
+</html>
